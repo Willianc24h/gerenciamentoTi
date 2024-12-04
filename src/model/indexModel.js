@@ -3,10 +3,12 @@ import mongoose from "mongoose";
 const indexModel = mongoose.model('index' , {
     nomeOperador: String,
     operacao: String,
-    tag: Number,
-    dataDeEntrega: Date,
+    tag: String,
+    dataDeEntrega: String,
     tipo: String,
-    NFE: Number,
+    NFE: String,
 })
 
 export default indexModel;
+
+    
